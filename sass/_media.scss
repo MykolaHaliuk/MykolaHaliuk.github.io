@@ -1,0 +1,321 @@
+@media (max-width: 1250px){
+    .container{
+        max-width: 960px;
+    }
+    .res{
+        &__blocks{
+            justify-content: space-around;
+        }
+        &__header{
+            margin-left: 40px;
+        }
+        &__input{
+            margin-right: 42px;
+        }
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 750px;
+    }
+    .header{
+        padding: 30px 0 ;
+    }
+    .header-reg{
+        padding: 20px 0 0 0;
+    }
+    .prom{
+        height: 240px;
+        background: url(../img/pizza.png) top -102px right -238px no-repeat #fff1b8;
+        padding: 30px 0 0 30px;
+        &__title{
+            width: 440px;
+            font-size: 32px;
+        }
+        &__subtitle{
+            width: 440px;
+            font-size: 20px;
+        }
+
+    }
+    .res{
+        padding: 30px 0 50px 0;
+
+        &__header{
+            line-height: 23px;
+        }
+        &__blocks{margin-top: 0;}
+        &__block{
+            height: 340px;
+            flex-basis: 47%;
+            img{
+                width: 100%;
+                
+            }
+        }
+        &__header{margin-left: 10px; }
+        &__input{margin-right: 10px;}
+        
+    }
+    .reg{
+        &__block{
+            height: 400px;
+        }
+        &__block-title{
+            font-size: 20px;
+        }
+        &__block-subtitle{
+            font-size: 15px; 
+        }
+    }    
+}
+@media (max-width: 767px){
+    .container{
+        max-width: 576px;
+    }
+    .prom{
+        padding: 15px 0 0 20px;
+        background: url(../img/pizza.png) top -102px right -326px no-repeat #fff1b8;
+        &__title{
+            width: 370px;
+            font-size: 29px;
+        }
+        &__subtitle{
+            width: 335px;
+            font-size: 20px;
+        }
+
+    }
+    .res__block__title {
+        font-size: 20px;}
+    .res__header {font-size: 27px;}
+    .res__block__content__mark{
+        display: block;
+    }
+    .res__block{height: 300px;}
+    .footer{
+        padding: 30px 0;
+        span{
+            display: none;
+        }
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__social{
+            margin-top: 10px;
+        }
+    }
+    .res-reg__mark{
+        display: inline;
+    }
+    .reg{
+        &__mark{
+            display: inline;
+        }
+        &__text{
+            position: relative;
+            height: 65%;
+        }
+        &__block{
+            height: 400px;
+        }
+        &__block-title{
+            font-size: 20px;
+        }
+        &__block-subtitle{
+            font-size: 15px; 
+        }
+        &__block-wrapper{
+            position: absolute;
+            bottom: 35px;
+
+        }
+    }
+    .modal{
+        &__foods-row{
+            flex-wrap: wrap;
+        }
+        &__name{
+            width: 50%;
+        }
+        &__price{
+            margin-right: 20px;
+        }
+    }    
+   
+}
+
+@media (max-width: 575px){
+    .container{
+        max-width: 97%;
+    }
+    .header{    
+        padding: 20px 0;
+        &__wrapper{
+            flex-wrap: wrap;
+        }
+        &__input{
+            order: 5;
+            margin-top: 15px;
+            min-width: 270px;
+            flex: 1;
+            height: 45px;
+        }
+        &__buttons{
+            span{
+                font-size: 22px;
+            }
+            &__in, &__basket{
+                width: 80px;
+                height: 40px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .prom{
+        height: 100%;
+        padding: 10px 15px  10px 15px;
+        background:#fff1b8;
+        &__title{
+            line-height: 1.5;
+            width: 100%;
+            text-align: center;
+            font-size: 22px;
+        }
+        &__subtitle{
+            text-align: center;
+            width: 100%;
+            font-size: 18px;
+        }
+
+    }
+    .res{
+        padding: 20px 0 50px 0;
+        &__row{
+            flex-wrap: wrap;
+        }
+        &__header{
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        &__input{
+            flex: 1;
+            margin: 12px 0 0 0;
+
+        }
+        &__block{
+            flex-basis: 100%;
+            height: 100%;
+            &__content{
+                &__mark{
+                    display: inline;  
+                }
+                
+            }
+        }
+    }
+
+    .footer{
+        padding: 15px 0;
+        &__contact{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            ul{
+                margin: 0 0 0 0;
+            }
+        }
+    }
+    .res-reg__mark{
+        display: block;
+    }
+    .reg-reg__img{
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+    .header-reg{
+        padding: 20px 0 0 0;
+    }
+    .reg{
+        .block{
+            height: auto;
+        }
+        &__block-btn{
+            font-size: 14px;
+            width: 100px;
+        }
+        &__mark{
+            display: block;
+        }
+        &__text{
+            height: auto;
+        }
+        &__block{
+            height: 400px;
+        }
+        &__block-title{
+            font-size: 20px;
+        }
+        &__block-subtitle{
+            font-size: 15px; 
+        }
+        &__block-wrapper{
+            position: static;
+            bottom: 10%;   
+
+        }
+    } 
+    .modal{
+        &__body{
+            margin-top: 20px;
+        }
+        &__title{font-size: 28px;}
+        &__foods-row{
+            flex-wrap: wrap;
+        }
+        &__name{
+            flex-basis: 100%;
+        }
+        &__price{
+            margin-right: 20px;
+        }
+        &__price, &__counter{
+            margin: 15px 0 0 0;
+        }
+        &__footer{
+            margin: 40px 0;
+            flex-wrap: wrap;
+            &__price{
+                margin: 0 auto;
+                flex-basis: 60%;
+            }
+            &__btn{
+                
+                margin: 0 0 0 0;
+                margin: 0 auto;
+                margin-top: 15px;
+                
+            }
+            &__btn-ok{
+                margin: 0 0 0 0;
+                font-size: 15px;
+            }
+            &__btn-ok, &__btn-no{
+                width: 100px;
+                height: 50px;
+            }
+        }
+    }       
+   
+}
+@media (max-width: 450px){
+    .reg-reg__img {
+        width: 100%;}
+    .reg__block-wrapper {
+        position: static;
+    }    
+}
+

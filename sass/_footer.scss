@@ -1,0 +1,39 @@
+.footer{
+    padding: 60px 0;
+    &__wrapper
+    {
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        list-style-type: none ;
+        
+    }
+    &__contact{
+        display: flex;
+        ul{margin: 0 0 0 35px; padding: 0 0 0 0;}
+        span{font-size: 36px;}
+        li{
+            
+            padding: 6px 15px 0 0;
+            a{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                color: #595959;
+            }
+        }
+    }
+    &__social{
+        ul{margin: 0 0 0 0; padding: 0 0 0 0;}
+        li{
+            padding-left: 21px;
+        }
+        
+
+    }
+}
